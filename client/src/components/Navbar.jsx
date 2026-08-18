@@ -16,6 +16,7 @@ import {
   Send
 } from 'lucide-react';
 import { YoutubeIcon } from './Icons';
+import profilePhoto from '../assets/profile.jpg';
 import { playSound, isSoundEnabled, setSoundEnabled } from '../utils/soundFX';
 
 export const Navbar = ({ 
@@ -113,17 +114,25 @@ export const Navbar = ({
               width: '36px',
               height: '36px',
               borderRadius: 'var(--radius-md)',
+              overflow: 'hidden',
               background: 'linear-gradient(135deg, var(--accent-cyan), var(--accent-emerald))',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              color: '#090d16',
-              fontWeight: 900,
-              fontSize: '1rem',
-              boxShadow: '0 0 15px var(--accent-cyan-glow)'
+              boxShadow: '0 0 15px var(--accent-cyan-glow)',
+              border: '1.5px solid var(--accent-cyan)'
             }}
           >
-            NT
+            <img
+              src={profilePhoto}
+              alt="NT"
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                objectPosition: 'center 20%'
+              }}
+            />
           </div>
           <span>Nishant Tiwari<span style={{ color: 'var(--accent-cyan)' }}>.dev</span></span>
         </a>

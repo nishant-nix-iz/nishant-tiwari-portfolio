@@ -1,1 +1,1 @@
-chore: update GitHub links to nishant-nix-iz profile and repository
+fix: bundle profile photo directly in Hero and Navbar for reliable GitHub Pages rendering

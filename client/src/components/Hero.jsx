@@ -12,6 +12,7 @@ import {
   Award
 } from 'lucide-react';
 import { GithubIcon, LinkedinIcon, YoutubeIcon, TwitterIcon } from './Icons';
+import profilePhoto from '../assets/profile.jpg';
 import { playSound } from '../utils/soundFX';
 import { api } from '../services/api';
 
@@ -152,12 +153,12 @@ Location: Bhilai, Chhattisgarh, India | Open to Worldwide Remote
           <div
             style={{
               position: 'relative',
-              width: '136px',
-              height: '136px',
+              width: '144px',
+              height: '144px',
               borderRadius: '50%',
               overflow: 'hidden',
               border: '3px solid var(--bg-primary)',
-              boxShadow: '0 12px 32px rgba(0, 0, 0, 0.45)',
+              boxShadow: '0 12px 35px rgba(0, 0, 0, 0.5)',
               background: 'var(--bg-secondary)',
               zIndex: 1,
               transition: 'transform var(--transition-normal)'
@@ -166,17 +167,15 @@ Location: Bhilai, Chhattisgarh, India | Open to Worldwide Remote
             onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1.0)'}
           >
             <img
-              src={profile?.avatar || '/profile.jpg'}
+              src={profilePhoto}
               alt="Nishant Tiwari - Full-Stack Developer & AI / ML Engineer"
+              loading="eager"
               style={{
                 width: '100%',
                 height: '100%',
                 objectFit: 'cover',
-                objectPosition: 'center 20%'
-              }}
-              onError={(e) => {
-                // Fallback to stylized initials if image load fails
-                e.currentTarget.style.display = 'none';
+                objectPosition: 'center 20%',
+                display: 'block'
               }}
             />
           </div>

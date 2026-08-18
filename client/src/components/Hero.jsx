@@ -44,7 +44,7 @@ export const Hero = ({ profile, onOpenCommandPalette }) => {
     setTimeout(() => {
       const resumeContent = `# Nishant Tiwari
 Phone: +91-7389744808 | Email: nishanttiwari.nt9@gmail.com
-LinkedIn: https://www.linkedin.com/in/nishant-tiwari-191a89412/ | GitHub: https://github.com/nishanttiwari
+LinkedIn: https://www.linkedin.com/in/nishant-tiwari-191a89412/ | GitHub: https://github.com/nishant-nix-iz
 YouTube: https://youtube.com/@innostack-369?si=kIAJrxlSibTamOLJ
 Location: Bhilai, Chhattisgarh, India | Open to Worldwide Remote
 
@@ -386,11 +386,11 @@ Location: Bhilai, Chhattisgarh, India | Open to Worldwide Remote
 
           {/* Social Links */}
           <a
-            href={profile?.socials?.github || 'https://github.com/nishanttiwari'}
+            href={profile?.socials?.github || 'https://github.com/nishant-nix-iz'}
             target="_blank"
             rel="noreferrer"
             className="btn-icon"
-            title="GitHub Profile"
+            title="GitHub Profile (nishant-nix-iz)"
             onClick={() => playSound('click')}
           >
             <GithubIcon size={18} />

@@ -1,1 +1,1 @@
-chore: add GitHub Pages deploy scripts and actions workflow
+chore: update GitHub links to nishant-nix-iz profile and repository

@@ -26,7 +26,7 @@ const defaultData = {
     statusBadge: "🟢 Available for Opportunities & Projects",
     resumeUrl: "#resume",
     socials: {
-      github: "https://github.com/nishanttiwari",
+      github: "https://github.com/nishant-nix-iz",
       linkedin: "https://www.linkedin.com/in/nishant-tiwari-191a89412/",
       youtube: "https://youtube.com/@innostack-369?si=kIAJrxlSibTamOLJ",
       twitter: "https://x.com",

@@ -135,7 +135,7 @@ export const CommandPalette = ({ isOpen, onClose, setTheme, onSelectProject, pro
   • Phone: +91-7389744808
   • LinkedIn: https://www.linkedin.com/in/nishant-tiwari-191a89412/
   • YouTube: https://youtube.com/@innostack-369?si=kIAJrxlSibTamOLJ (@innostack-369)
-  • GitHub: https://github.com/nishanttiwari
+  • GitHub: https://github.com/nishant-nix-iz
   • Location: Bhilai, Chhattisgarh, India`
         });
         window.location.hash = '#contact';
@@ -160,10 +160,10 @@ export const CommandPalette = ({ isOpen, onClose, setTheme, onSelectProject, pro
         break;
 
       case 'github':
-        window.open('https://github.com/nishanttiwari', '_blank');
+        window.open('https://github.com/nishant-nix-iz', '_blank');
         newHistory.push({
           type: 'success',
-          text: `Opening GitHub profile: https://github.com/nishanttiwari`
+          text: `Opening GitHub profile: https://github.com/nishant-nix-iz`
         });
         break;
 

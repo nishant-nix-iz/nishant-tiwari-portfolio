@@ -1,1 +1,1 @@
-fix: bundle profile photo directly in Hero and Navbar for reliable GitHub Pages rendering
+fix: remove static.yml and configure Vite build deploy.yml workflow for GitHub Pages

@@ -1,0 +1,8 @@
+feat: Initial commit for Nishant Tiwari full-stack portfolio
+
+- Personal identity, profile photo, and verified resume details
+- 4 Featured Resume Projects: IntellMeet, Multi-Model Research Assistant, NeriDena, Career Guidance AI
+- YouTube Engineering Hub (@innostack-369) featuring EduVerify and technical breakdowns
+- 6 Verified Industry Certifications Grid
+- Full-stack Express REST API backend and hybrid offline GitHub Pages fallback
+- GitHub Actions CI/CD workflow for automated GitHub Pages deployment
